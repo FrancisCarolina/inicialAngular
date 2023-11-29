@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ListarPensamentoComponent implements OnInit {
   listaPensamentos = [
     {
-      conteudo: 'Conteudo aqui',
+      conteudo:
+        'Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui Conteudo aqui',
       autoria: 'Fran',
       modelo: 'modelo2',
     },
