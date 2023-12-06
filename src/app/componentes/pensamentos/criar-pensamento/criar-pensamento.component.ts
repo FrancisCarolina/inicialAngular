@@ -43,4 +43,11 @@ export class CriarPensamentoComponent implements OnInit {
     }
   }
   cancelar() {}
+  habilitarBotao(): string {
+    if (this.formulario.valid) {
+      return 'botao';
+    } else {
+      return 'botao__desabilitado';
+    }
+  }
 }
