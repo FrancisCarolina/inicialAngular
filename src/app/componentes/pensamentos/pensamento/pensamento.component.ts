@@ -12,6 +12,7 @@ export class PensamentoComponent implements OnInit {
     conteudo: '',
     autoria: '',
     modelo: '',
+    favorito: false,
   };
 
   constructor() {}
@@ -23,5 +24,13 @@ export class PensamentoComponent implements OnInit {
       return 'pensamento-g';
     }
     return 'pensamento-p';
+  }
+
+  mudarIconeFavorito(): string {
+    if (this.pensamento.favorito) {
+      return 'ativo';
+    } else {
+      return 'inativo';
+    }
   }
 }
