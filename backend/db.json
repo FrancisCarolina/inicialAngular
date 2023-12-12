@@ -5,7 +5,7 @@
       "conteudo": "Que bom que você veio!!",
       "autoria": "Dev",
       "modelo": "modelo1",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 2,
@@ -46,7 +46,7 @@
       "conteudo": "pensamento 7",
       "autoria": "sfdfsgg",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 7
     }
   ]
